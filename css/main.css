@@ -49,29 +49,28 @@ h1 {
 }
 
 section.hero {
+  position: absolute;
   color: white;
   height: 100vh;
 }
 
-section.Display {
-  margin-top: -48em;
-}
-
 section.why {
   color: white;
+  margin-top: 45.5em;
 }
 section.why .reason {
-  margin-top: -1.5em;
+  margin-top: -0.5em;
   font-size: 1.3rem;
 }
 section.why img {
   width: 28em;
+  height: 20em;
   border-radius: 1.2rem;
 }
 
 section.work-info {
   color: white;
-  margin-top: 10em;
+  margin-top: 5em;
 }
 section.work-info .title1 {
   font-size: 1.1em;
@@ -81,4 +80,18 @@ section.work-info img {
   width: 28em;
   height: 25em;
   border-radius: 1.2rem;
+}
+section.work-info .title2 {
+  font-size: 2.5em;
+}
+section.work-info .content2 {
+  font-size: 1.5em;
+  margin-top: -1.2em;
+}
+section.work-info .title3 {
+  font-size: 3em;
+}
+section.work-info .content3 {
+  font-size: 1.5em;
+  margin-top: -1.2em;
 }/*# sourceMappingURL=main.css.map */

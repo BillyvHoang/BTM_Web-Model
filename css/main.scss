@@ -55,29 +55,30 @@ h1{
 }
 
 section.hero{
+    position: absolute;
     color: white;
     height: 100vh;
 }
 
-section.Display{
-    margin-top: -48em;
-}
+
 
 section.why{
      color: white;
+     margin-top: 45.5em;
      .reason{
-        margin-top: -1.5em;
+        margin-top: -.5em;
         font-size: 1.3rem;
      }
      img{
         width: 28em;
+        height: 20em;
         border-radius: 1.2rem;
      }
 }
 
 section.work-info{
     color: white;
-    margin-top: 10em;
+    margin-top: 5em;
     .title1{
         font-size: 1.1em;
         margin-top: -1em;
@@ -87,5 +88,21 @@ section.work-info{
         height: 25em;
         border-radius: 1.2rem;
     }
+
+    .title2{
+        font-size: 2.5em;
+    }
+    .content2{
+        font-size: 1.5em;
+        margin-top: -1.2em;
+    }
+    .title3{
+        font-size: 3em;
+    }
+    .content3{
+        font-size: 1.5em;
+        margin-top: -1.2em;
+    }
+
 }
 
